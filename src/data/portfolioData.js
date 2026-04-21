@@ -49,8 +49,8 @@ export const achievements = [
 ];
 
 export const contactLinks = {
-  email: "adityakochhar.dev@gmail.com",
-  github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
-  resume: "#",
+  email: "adityakochhar2005@gmail.com",
+  github: "https://github.com/adityakochhar",
+  linkedin: "https://www.linkedin.com/in/aditya-kochhar-b7060b295",
+  resume: "/resume.pdf",
 };
