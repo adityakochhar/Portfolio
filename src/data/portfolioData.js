@@ -12,7 +12,7 @@ export const projects = [
     description:
       "A scalable LMS built with robust role-based access control, Redis-backed caching, and real-time updates for live learning workflows.",
     stack: ["Node.js", "MongoDB", "Redis", "WebSockets"],
-    github: "https://github.com/",
+    github: "https://github.com/adityakochhar/LearnSphere",
     demo: "",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     description:
       "AI-powered chat platform using MERN and OpenAI API integration with optimized conversational flow and responsive chat experience.",
     stack: ["MERN", "OpenAI API", "React", "Node.js"],
-    github: "https://github.com/",
+    github: "https://github.com/adityakochhar/Intillexa",
     demo: "",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     description:
       "Rental marketplace with secure JWT authentication, intuitive property discovery, and modern responsive interface built on MERN.",
     stack: ["MERN", "Tailwind", "JWT", "MongoDB"],
-    github: "https://github.com/",
+    github: "https://github.com/adityakochhar/WanderLust",
     demo: "",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     description:
       "Student enrollment management system focused on reliable backend operations, clean data workflows, and maintainable architecture.",
     stack: ["Spring Boot", "MySQL", "Java"],
-    github: "https://github.com/",
+    github: "https://github.com/adityakochhar/EduEnroll",
     demo: "",
   },
 ];

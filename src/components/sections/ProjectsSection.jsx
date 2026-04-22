@@ -28,26 +28,30 @@ function ProjectsSection({ projects }) {
                 </span>
               ))}
             </div>
-            <div className="mt-6 flex items-center gap-4 text-sm">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-slate-200 transition hover:text-sky-300"
-              >
-                <FiGithub /> GitHub
-              </a>
-              {project.demo && (
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-slate-200 transition hover:text-sky-300"
-                >
-                  <FiGlobe /> Live Demo
-                </a>
-              )}
-            </div>
+            {(project.github || project.demo) && (
+              <div className="mt-6 flex flex-wrap items-center gap-4 text-sm">
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 text-slate-200 transition hover:text-sky-300"
+                  >
+                    <FiGithub /> GitHub
+                  </a>
+                )}
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 text-slate-200 transition hover:text-sky-300"
+                  >
+                    <FiGlobe /> View project
+                  </a>
+                )}
+              </div>
+            )}
           </article>
         ))}
       </div>
